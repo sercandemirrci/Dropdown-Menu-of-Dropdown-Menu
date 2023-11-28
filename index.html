@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">SD</div>
+            <ul class="navigators">
+                <li><a href="#">Home</a></li>
+                <li class="navbar-li">
+                    <a href="#">Series</a>
+                    <div class="navbar-dropdowns">
+                        <a href="#">Breaking Bad</a>
+                        <a href="#">Prison Break</a>
+                        <a href="#">Peaky Blinders</a>
+                        <a href="#">Avatar</a>
+                        <a href="#">Dark</a>
+                        <a href="#">Snowpiercer</a>
+                        <a href="#">And More...</a>
+                    </div>
+                </li>
+                <li class="navbar-li">
+                    <a href="#">Films</a>
+                    <div class="navbar-dropdowns">
+                        <div class="sub-dropdown">
+                            <a href="#">Action<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-dropdown-content">
+                                <a href="#">James Bond</a>
+                                <a href="#">Fast and Furious</a>
+                                <a href="#">John Wick</a>
+                                <a href="#">Inception</a>
+                                <a href="#">The Agent</a>
+                                <a href="#" class="andmore">And More...</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown">
+                            <a href="#">Drama<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Oppenheimer</a>
+                                <a href="#">Nowhere</a>
+                                <a href="#">Jarhead</a>
+                                <a href="#">Sukhee</a>
+                                <a href="#">Fair Play</a>
+                                <a href="#">Pain Hustlers</a>
+                                <a href="#" class="andmore">And More...</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown">
+                            <a href="#">Comedy<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Hangover</a>
+                                <a href="#">Scream</a>
+                                <a href="#">American Pie</a>
+                                <a href="#">Asterix and Obelix</a>
+                                <a href="#" class="andmore">And More...</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown">
+                            <a href="#">Science Fiction<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Avatar</a>
+                                <a href="#">The World War Z</a>
+                                <a href="#">I am Legend</a>
+                                <a href="#">Limitless</a>
+                                <a href="#" class="andmore">And More...</a>
+                            </div>
+                        </div>
+                        <div class="sub-dropdown">
+                            <a href="#">Animation<i class="fa-solid fa-chevron-right"></i></a>
+                            <div class="sub-dropdown-content">
+                                <a href="#">Leo</a>
+                                <a href="#">Cars</a>
+                                <a href="#">Ice Age</a>
+                                <a href="#">Ratatouille</a>
+                                <a href="#" class="andmore">And More...</a>
+                            </div>
+                        </div>
+                        <a href="#">And More...</a>
+                    </div>
+                </li>
+                <li class="navbar-li">
+                    <a href="#">Popular</a>
+                    <div class="navbar-dropdowns">
+                        <a href="#">Most Viewed</a>
+                        <a href="#">Most Recently</a>
+                        <a href="#">Top Rated</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="profile" id="profile" onclick="profileClick()">
+                <i class="fa-solid fa-user"></i>
+                <div class="profile-dropdown" id="profile-dropdown">
+                    <a href="#">Login</a>
+                    <a href="#" style="padding-bottom: 15px;">Register</a>
+                </div>
+            </div>
+            <div class="toogle" onclick="toogleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="toogle-menu" id="toogle">
+                <a href="#">Home</a>
+                <a href="#">Series</a>
+                <a href="#">Films</a>
+                <a href="#">Popular</a>
+                <a href="#">Profile</a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
